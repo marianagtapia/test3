@@ -1,15 +1,3 @@
-//Saludo con callback
-function getName(callback) {
-    let name = prompt('Ingresá tu nombre: ');
-    callback(name);
-}
-
-function sayHi(name) {
-    alert('Hola ' + name);
-}
-getName(sayHi);
-
-
 //Calculadora con callback: suma y resta
 let suma = (n1, n2) => n1 + n2;
 let resta = (n1, n2) => n1 - n2;
